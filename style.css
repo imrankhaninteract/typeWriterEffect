@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap');
 
 body {
-  font-family: 'Raleway', sans-serif;
-  height: 100vh;
-  background:linear-gradient(#000000b4,rgba(0, 0, 0, 0.584)), url("https://images.pexels.com/photos/3184357/pexels-photo-3184357.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") no-repeat center center / cover;
-  font-family: "Inknut Antiqua", serif;
+  font-family: 'Inknut Antiqua', serif;
   font-style: normal;
   color: #ffffff;
-  overflow:hidden;
+  height: 100vh;
+  overflow: hidden;
+  background: linear-gradient(#000000b4, rgba(0, 0, 0, 0.584)), url("https://images.pexels.com/photos/3184357/pexels-photo-3184357.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") no-repeat center center/cover;
 }
 
 .container {
@@ -19,12 +18,12 @@ body {
 }
 
 h1, h2 {
-  font-weight: 200;
   margin: 0.5px;
 }
 
 h1 {
   font-size: 3.5rem;
+  font-weight: 200;
 }
 
 h2 {
@@ -32,18 +31,17 @@ h2 {
   color: #0059ff;
 }
 
-/* Cursor */
 .txt-type > .txt {
   border-right: 0.2rem solid #777;
 }
 
-@media(min-width: 1200px) {
+@media (min-width: 1200px) {
   h1 {
     font-size: 5rem;
   }
 }
 
-@media(max-width: 800px) {
+@media (max-width: 800px) {
   .container {
     padding: 0 1rem;
   }
@@ -53,7 +51,7 @@ h2 {
   }
 }
 
-@media(max-width: 500px) {
+@media (max-width: 500px) {
   h1 {
     font-size: 2.5rem;
   }
